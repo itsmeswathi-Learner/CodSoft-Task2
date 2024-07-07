@@ -1,0 +1,113 @@
+/* Basic Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: hotpink;
+
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: paleturquoise;
+  color: red;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  background-color: thistle;
+}
+
+.main {
+  padding: 20px;
+  color: red;
+  background-color: blue;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  background-color: ;
+  color
+}
+
+.image-column {
+  width: 20%;
+  padding: 10px;
+}
+
+.text-column {
+  width: 50%;
+  padding: 20px;
+  color: yellow;
+}
+
+.image-column img {
+  width: 20%;
+  heigth: auto;
+  border-radius: 10px;
+}
+
+.about,
+.skills,
+.projects,
+.contact {
+  margin-bottom: 20px;
+}
+
+.about img {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.skills ul,
+.projects ul {
+  list-style: none;
+  padding: 20px;
+  background: soft grey;
+  color: Blue;
+}
+
+.skills li,
+.projects li {
+  margin-bottom: 10px;
+}
+
+contact-info {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #3498db;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Basic Styles (same as previous example) */
